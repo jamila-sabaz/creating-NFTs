@@ -11,7 +11,7 @@ contract EmotionalShapes is ERC721 {
     constructor() ERC721("EmotionalShapes", "ESS") {}
 
     function _baseURI() internal pure override returns (string memory) {
-        return "dfb1-147-10-200-52.ngrok.io/api/erc721/";
+        return "3346-147-10-200-52.ngrok.io/api/erc721/";
     }
 
     function mint(address to)

@@ -13,7 +13,7 @@ const provider = ethers.getDefaultProvider("ropsten", {
 const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
 
 //https://docs.ethers.io/v5/api/contract/contract
-const YOUR_NFT_ADDRESS = "0xB6b6580fa8a624e45f700044ec980Acf4b277962";
+const YOUR_NFT_ADDRESS = "0xa3f0d4304ddc873E42Be26294a69D5304eD6dD2b";
 
 const emotionalShapes = new ethers.Contract(
   YOUR_NFT_ADDRESS,
